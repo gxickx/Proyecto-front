@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GR Fotografias</title>
+    <!--local styles-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,800&family=Ysabeau:ital,wght@0,300;0,500;0,700;0,900;1,300;1,500&display=swap"
+      rel="stylesheet" />
+
+    <!--BOOSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <!--  NAVBAR BOOSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-lg">
+        <span> <img src="./media/cacimagen.png" alt="Logo CaC" /> </span>
+        <h1 class="navbar-brand-h1 me-auto">GR Fotografías</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active"
+              href="#showcase"
+              aria-current="page"
+              href="#">
+              ¿Quién soy?
+            </a>
+            <a class="nav-link" href="#individuales">Modelos</a>
+            <a class="nav-link" href="#eventos">Eventos</a>
+            <a class="nav-link" href="#contacto">Contactame</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--SHOWCASE-->
+    <section class="showcase" id="showcase">
+      <div class="shadow">
+        <div class="container-flex">
+          <div class="content">
+            <h1>Guillermina Roko</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              dignissimos atque doloribus autem distinctio corrupti
+              aperiamignissimos atque doloribus autem distinctio corrupti
+              aperiam reprehenderit dicta labore, sed dolorem. Eius nihil rerum
+              accusamus hic molestiae, consequatur ratione? Laudantium?
+            </p>
+            <div class="buttonarea">
+              <a class="btn btn-transparent" href="#individuales">
+                Ver galería
+              </a>
+              <a class="btn btn-solid" href="#contacto">Contactame</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--GALERIA-->
+    <section class="gallery" id="individuales">
+      <h2 class="gallery-title">Galería</h2>
+      <div class="gallery-section">
+        <h2 class="sesion-name">LANA</h2>
+        <div class="gallery-img-section">
+          <div class="gallery-img">
+            <img
+              src="/media/lana/DSC_0233.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/lana/DSC_0250.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/lana/DSC_0265.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/lana/DSC_0389.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h2 class="sesion-name">ESTUDIO</h2>
+        <div class="gallery-img-section">
+          <div class="gallery-img">
+            <img src="/media/javi/1.jpg" style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/javi/DSC_0261.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img src="/media/javi/3.jpg" style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/javi/DSC_0259.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <h2 class="sesion-name">OUTDOOR</h2>
+        <div class="gallery-img-section">
+          <div class="gallery-img">
+            <img
+              src="/media/varias/DSC_0073.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/varias/DSC_0075.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/varias/DSC_0268.jpg"
+              style="height: 500px; width: auto" />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="/media/varias/DSC_0271.jpg "
+              style="height: 500px; width: auto" />
+          </div>
+        </div>
+      </div>
+
+      <!-- POPUP GALLERY -->
+      <div class="popup-gallery">
+        <div class="popup-img">
+          <span>&times;</span>
+          <img src="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="eventos-section" id="eventos">
+      <h2 class="eventos-title">Eventos</h2>
+      <div class="eventos-container">
+        <div class="eventos-slider">
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0520.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0462.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0495.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0533.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0575.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0614.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0640.jpg" />
+          </div>
+          <div class="eventos-img">
+            <img src="/media/vals/DSC_0669.jpg" />
+          </div>
+        </div>
+        <div class="slider-btn slider-btn-left" id="eventos-btn-left">
+          &#60;
+        </div>
+        <div class="slider-btn slider-btn-right" id="eventos-btn-right">
+          &#62;
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <div class="contacto-section" id="contacto">
+      <h2>Mandame un mensaje!</h2>
+    </div>
+    <section class="grid-contacto">
+      <div class="container">
+        <form id="form">
+          <div class="row">
+            <div class="col-25">
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="userNombre"
+                name="userNombre"
+                autocomplete="off"
+                placeholder="Nombre"
+                required />
+            </div>
+            <p class="text-danger d-none" id="alertNombre"></p>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Correo Electronico</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="userEmail"
+                name="userEmail"
+                autocomplete="off"
+                placeholder="Email"
+                required />
+            </div>
+            <p class="text-danger d-none" id="alertEmail"></p>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Consulta</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="userSubject"
+                name="userSubject"
+                placeholder="Escribe tu consulta"
+                style="height: 100px"></textarea>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <button id="enviar" type="submit" value="enviar">Enviar</button>
+          </div>
+        </form>
+        <div class="alert alert-success d-none" id="alertSuccess"></div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
